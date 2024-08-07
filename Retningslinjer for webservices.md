@@ -45,73 +45,48 @@ Dokumentet henviser til følgende bilag:
 * [Bilag 3 ”Nonfunktionelle krav til realisering af retningslinjer”](/node/1166) indeholder et kravbilag, som kan anvendes af serviceudbydere til at kravstille webservices, som overholder retningslinjerne.
 * [Bilag 4 ”Specifikation for brug af HTTP til REST”](/node/1167) uddyber mere detaljeret anvendelsen af REST over HTTP. REST giver stor mulighed for fleksibilitet i udarbejdelsen af snitfladen, men bilagets formål er at skabe større ensartethed på almindeligt udstillet funktionalitet.
 
+### 
+
+
+
 ### Oversigt over retningslinjer
 
 Dokumentet indeholder følgende retningslinjer opdateret efter tema.
 
-|     |     |
-| --- | --- |Generelle retningslinjer for webservices
-| Nr. | Retningslinje |
-| --- | --- |
-|     | **Fokus på serviceanvendere** |
-| R01. | Udstil minimal funktionalitet og data i den enkelte webservice |
-| R02. | Separér webservices fra konkret implementering |
-| R03. | Separér webservices fra eksterne afhængigheder |
-|     | **Ansvarsfordeling ved kald til webservices** |
-| R04. | Understøt gentagne forsøg på kald fra serviceanvenderen |
-| R05. | Kræv specifikkke informationer ved ansvarsoverdragelse ved kald til webservices |
-|     | **Servicedokumentation** |
-| R06. | Dokumentér udstillede webservices i overensstemmelse med den fællesoffentlige dokumentationsramme for webservices |
-| R07. | Opmærk webservices i henhold til fællesoffentlige emnesystematikker |
-| R08. | Opmærk webservices med følsomhed eller fortrolighed af data |
-| R09. | Dokumentér servicespecifikke fejlkoder for webservices |
-| R10. | Dokumentér drift af forskellige versioner af webservices |
-|     | **Serviceversionering** |
-| R11. | Anvend semantisk versionering af webservices |
-| R12. | Viderefør gamle versioner, når en webservice ændres |
-|     | **Servicelogning** |
-| R13. | Log alle kald til webservices |
-| R14. | Anvend transaktionsidentifikatorer ved kald og svar |
-| R15. | Anvend requestID ved kald og svar |
-|     | **Servicetilgængelighed** |
-| R16. | Understøt monitorering af udstillede webservices |
-|     | **Servicefejlmeddelelser** |
-| R17. | Returnér servicespecifikke fejl som standardiserede fejlmeddelelser |
-|     | **Temporale ressourcer** |
-| R18. | Forretningsregler vedrørende temporaler indkapsles og håndhæves på serviceniveau |
-| R19. | Webservices med temporale ressourcer returnerer som et øjebliksbillede |
-| R20. | Webservices med temporale ressourcer anvender anerkendte nøgleord i søgeparametre. |
-| R21. | Webservices med temporale ressourcer skal udstille ensartet funktionalitet til revision og Linje |
-| R22. | Webservices med temporale ressourcer skal  anvende ens håndtering af tidspunkter |
-|     | **Sikkerhedskrav til webservices** |
-| R23. | Webservices skal have tokenbaseret sikkerhed |
-
-|     |     |
-| --- | --- |Retningslinjer for REST webservices
-| Nr. | Retningslinje |
-| --- | --- |
-|     | **Modellering af REST webservices** |
-| R24. | Udstil webservices som REST ressourcer |
-| R25. | Udstil data som REST ressourcer |
-| R26. | Modellér REST ressourcer med udgangspunkt i forretningsmodellering |
-| R27. | Navngiv REST ressourcer ud fra forretningsmodellens begreber |
-| R28. | Navngiv REST ressourcer ud fra REST arkitekturstilen |
-| R29. | Udstillede REST ressourcer har unikke, sikre identifikatorer |
-| R30. | Udstil REST ressourcers relaterede entiteter |
-| R31. | Returnér REST ressourcer med hypertext links |
-|     | **Søgninger i REST webservices** |
-| R32. | Anvend standardiserede REST fremsøgningsparametre |
-| R33. | Understøt søgning med delresultater |
-|     | **Datarepræsentation i REST webservices** |
-| R34. | Repræsentér REST ressourcer i et standardiseret dataformat |
-| R35. | Deklarér REST ressourcer datarepræsentationer |
-| R36. | Overfør tekst i en internationaliseret repræsentation |
-|     | **REST kommunikationsprotokol** |
-| R37. | Anvend HTTP som fællesoffentlig REST kommunikationsprotokol |
-| R38. | Anvend HTTPs mekanismer til effektiv kommunikation |
-| R39. | Anvend HTTP sikkert til REST ressourcer |
-|     | **Sikkerhedskrav til REST webservices** |
-| R40. | REST webservices skal anvende OIO IDWS REST profile V1.0 |
+| Nr.    | Retningslinje                                                                                                     |
+| ------ | ----------------------------------------------------------------------------------------------------------------- |
+| &nbsp; | **Fokus på serviceanvendere**                                                                                     |
+| R01.   | Udstil minimal funktionalitet og data i den enkelte webservice                                                    |
+| R02.   | Separér webservices fra konkret implementering                                                                    |
+| R03.   | Separér webservices fra eksterne afhængigheder                                                                    |
+| &nbsp; | Ansvarsfordeling ved kald til webservices                                                                         |
+| R04.   | Understøt gentagne forsøg på kald fra serviceanvenderen                                                           |
+| R05.   | Kræv specifikkke informationer ved ansvarsoverdragelse ved kald til webservices                                   |
+| &nbsp; | **Servicedokumentation**                                                                                          |
+| R06.   | Dokumentér udstillede webservices i overensstemmelse med den fællesoffentlige dokumentationsramme for webservices |
+| R07.   | Opmærk webservices i henhold til fællesoffentlige emnesystematikker                                               |
+| R08.   | Opmærk webservices med følsomhed eller fortrolighed af data                                                       |
+| R09.   | Dokumentér servicespecifikke fejlkoder for webservices                                                            |
+| R10.   | Dokumentér drift af forskellige versioner af webservices                                                          |
+| &nbsp; | **Serviceversionering**&nbsp;                                                                                     |
+| R11.   | Anvend semantisk versionering af webservices                                                                      |
+| R12.   | Viderefør gamle versioner, når en webservice ændres                                                               |
+| &nbsp; | **Servicelogning**&nbsp;                                                                                          |
+| R13.   | Log alle kald til webservices                                                                                     |
+| R14.   | Anvend transaktionsidentifikatorer ved kald og svar                                                               |
+| R15.   | Anvend requestID ved kald og svar                                                                                 |
+| &nbsp; | **Servicetilgængelighed**&nbsp;                                                                                   |
+| R16.   | Understøt monitorering af udstillede webservices                                                                  |
+| &nbsp; | **Servicefejlmeddelelser**&nbsp;                                                                                  |
+| R17.   | Returnér servicespecifikke fejl som standardiserede fejlmeddelelser                                               |
+| &nbsp; | Temporale ressourcer                                                                                              |
+| R18.   | Forretningsregler vedrørende temporaler indkapsles og håndhæves på serviceniveau                                  |
+| R19.   | Webservices med temporale ressourcer returnerer som et øjebliksbillede                                            |
+| R20.   | Webservices med temporale ressourcer anvender anerkendte nøgleord i søgeparametre.                                |
+| R21.   | Webservices med temporale ressourcer skal udstille ensartet funktionalitet til revision og Linje                  |
+| R22.   | Webservices med temporale ressourcer skal&nbsp; anvende ens håndtering af tidspunkter                             |
+| &nbsp; | Sikkerhedskrav til webservices                                                                                    |
+| R23.   | Webservices skal have tokenbaseret sikkerhed&nbsp;                                                                |
 
 Retningslinjerne beskrives efter følgende mønster:
 
@@ -380,7 +355,9 @@ Fx kan et mødelokales størrelse have forskellige værdier over tid, som skifte
 
 Dette kan anskueliggøres med et eksempel, hvor en ressource opdateres på tre på hinanden følgende tidspunkter. For ressourcen foretages først en opdatering for periode 1 \[g0;g1\] til registreringstidspunktet r0. Efterfølgende opdateres ressourcen til at gælde for periode 2 \[g1;g2\] til registreringstidspunktet r1. Og endeligt opdateres ressourcen til at gælde for periode 3 \[g0;g2\] til registreringstidspunktet r2. Figuren nedenfor illustrerer, hvorledes den bitemporale plan for eksemplet ser ud.
 
-![Opmærkningen påføres den enkelte webservice i form af angivelse af fortroligheds- eller følsomhedsniveauer fra en klassifikation af niveauer i den fællesoffentlige dokumentationsramme.   En REST webservice skal opmærke følsomhed og fortrolighed i OpenAPI, jf. Bilag 1 ”Dokumentation for REST Webservices” afsnit 3.2.9.  Hvis en webservice har data med flere niveauer, angives det højeste niveau af følsomhed eller fortrolighed, jf. klassifikation af niveauer i den fællesoffentlige dokumentationsramme.](/sites/default/fileuploads/Metoder/Arkitekturmetoder/Retningslinjer%20for%20webservices/Figur%201.jpg)
+
+
+![Figur 1.jpg](C:\Users\B339605\Documents\GitHub\Retningslinjer-for-webservices\assets\Figur%201.jpg)
 
 Figur 1 Illustrativt eksempel på registreringhistorik og gyldighedsperioder med tre registreringer
 
@@ -391,7 +368,9 @@ Bitemporale ressourcer anvendes til at understøtte en lang række særskilte fo
 3. Behov for at kunne fremsøge ressourcens gyldige tilstande over en periode - også kaldet en **Linje**.
 4. Behov for at kunne se registreringsperioden for en gyldighedstidsperiode - også kaldet en **Flade**.
 
-![Opmærkningen påføres den enkelte webservice i form af angivelse af fortroligheds- eller følsomhedsniveauer fra en klassifikation af niveauer i den fællesoffentlige dokumentationsramme.   En REST webservice skal opmærke følsomhed og fortrolighed i OpenAPI, jf. Bilag 1 ”Dokumentation for REST Webservices” afsnit 3.2.9.  Hvis en webservice har data med flere niveauer, angives det højeste niveau af følsomhed eller fortrolighed, jf. klassifikation af niveauer i den fællesoffentlige dokumentationsramme.](/sites/default/fileuploads/Metoder/Arkitekturmetoder/Retningslinjer%20for%20webservices/Figur%202.jpg)
+
+
+![Figur 2.jpg](C:\Users\B339605\Documents\GitHub\Retningslinjer-for-webservices\assets\Figur%202.jpg)
 
 Figur 2 Søgemuligheder ved bitemporalitet  
 
