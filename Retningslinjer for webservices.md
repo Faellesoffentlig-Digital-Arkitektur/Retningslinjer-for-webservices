@@ -1,12 +1,10 @@
 # Retningslinjer for webservices
 
-
-
 ## Indledning
 
 Dette dokument beskriver fællesoffentlige retningslinjer for anvendelse af webservices og særligt REST (Representational State Transfer) webservices i it løsningerne i den offentlige sektor. Formålet med de fælles retningslinjer for webservices er at skabe bedre interoperabilitet imellem offentlige institutioners it-løsninger. 
 
-Retningslinjerne er en konkretisering af princip 7 om at it-løsninger samarbejder effektivt, samt af arkitekturregel 7.1 om at der skal designes og udstilles snitflader efter fælles integrationsmønstre og tekniske standarder
+Retningslinjerne er en konkretisering af princip 7 om at it-løsninger samarbejder effektivt, samt af arkitekturregel 7.1 om at der skal designes og udstilles snitflader efter fælles integrationsmønstre og tekniske standarder.
 
 De fælles retningslinjer for webservices i dette dokument er en vejledning til serviceudbydere, der skal udstille data og funktionalitet via webservices. Vejledningen skal opfattes som en beskrivelse af god praksis og skal hjælpe serviceudbyderen, når denne designer og udstiller webservices rettet imod serviceanvendere.
 
