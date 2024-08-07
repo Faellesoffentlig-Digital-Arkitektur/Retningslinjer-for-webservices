@@ -47,8 +47,6 @@ Dokumentet henviser til følgende bilag:
 
 ### 
 
-
-
 ### Oversigt over retningslinjer
 
 Dokumentet indeholder følgende retningslinjer opdateret efter tema.
@@ -355,8 +353,6 @@ Fx kan et mødelokales størrelse have forskellige værdier over tid, som skifte
 
 Dette kan anskueliggøres med et eksempel, hvor en ressource opdateres på tre på hinanden følgende tidspunkter. For ressourcen foretages først en opdatering for periode 1 \[g0;g1\] til registreringstidspunktet r0. Efterfølgende opdateres ressourcen til at gælde for periode 2 \[g1;g2\] til registreringstidspunktet r1. Og endeligt opdateres ressourcen til at gælde for periode 3 \[g0;g2\] til registreringstidspunktet r2. Figuren nedenfor illustrerer, hvorledes den bitemporale plan for eksemplet ser ud.
 
-
-
 ![Figur 1.jpg](C:\Users\B339605\Documents\GitHub\Retningslinjer-for-webservices\assets\Figur%201.jpg)
 
 Figur 1 Illustrativt eksempel på registreringhistorik og gyldighedsperioder med tre registreringer
@@ -367,8 +363,6 @@ Bitemporale ressourcer anvendes til at understøtte en lang række særskilte fo
 2. Behov for at kunne fremsøge ressourcens tilstand til et givent gyldighedstidspunkt og registreringstidspunkt er ”nu”- også kaldet et **Punkt** eller et øjebliksbillede.
 3. Behov for at kunne fremsøge ressourcens gyldige tilstande over en periode - også kaldet en **Linje**.
 4. Behov for at kunne se registreringsperioden for en gyldighedstidsperiode - også kaldet en **Flade**.
-
-
 
 ![Figur 2.jpg](C:\Users\B339605\Documents\GitHub\Retningslinjer-for-webservices\assets\Figur%202.jpg)
 
@@ -768,69 +762,3 @@ Herved returneres en liste af bookinger svarende til samtlige registreringer i i
 7 Se f.eks.: [https://tools.ietf.org/html/rfc5005](https://tools.ietf.org/html/rfc5005)
 
 8 Flere gængse HTTP servere kan opsættes til komprimering og dekomprimering af data, f.eks. Apache HTTPd.
-
-[Permanent URL til artiklen: https://arkitektur.digst.dk/node/1235](https://arkitektur.digst.dk/node/1235)
-
-[Tilbage til toppen](#top)
-
-Opdateret 13. november 2023
-
-DokumentinformationIndholdsfortegnelse
-
-* [Indledning](#indledning)
-  * [Definitioner:](#definitioner)
-  * [Afgrænsning](#afgrnsning)
-  * [Læsevejledning](#lsevejledning)
-  * [Oversigt over retningslinjer](#oversigt-over-retningslinjer)
-* [Principper og forretningsbehov for retningslinjer](#principper-og-forretningsbehov-for-retningslinjer)
-  * [Principper](#principper)
-  * [Tema 1: Forretningsbehov vedrørende serviceanvendere og serviceudbydere](#tema-1-forretningsbehov-vedrrende-serviceanvendere)
-  * [Tema 2: Forretningsbehov vedrørende data og funktionalitet](#tema-2-forretningsbehov-vedrrende-data-og-funktion)
-  * [Tema 3: Forretningsbehov vedrørende stabil og sikker driftsafvikling](#tema-3-forretningsbehov-vedrrende-stabil-og-sikker)
-* [Generelle retningslinjer for webservices](#generelle-retningslinjer-for-webservices)
-  * [Fokus på serviceanvendere](#fokus-p-serviceanvendere)
-  * [Ansvarsfordeling ved kald til webservices](#ansvarsfordeling-ved-kald-til-webservices) 
-  * [Servicedokumentation](#servicedokumentation)
-  * [Serviceversionering](#serviceversionering)
-  * [Servicelogning](#servicelogning)
-  * [Servicetilgængelighed](#servicetilgngelighed)
-  * [Servicefejlmeddelelser](#servicefejlmeddelelser)
-  * [Temporale ressourcer](#temporale-ressourcer) 
-  * [Sikkerhedskrav til webservices](#sikkerhedskrav-til-webservices)
-* [Retningslinjer for REST webservices](#retningslinjer-for-rest-webservices)
-  * [Modellering af REST webservices](#modellering-af-rest-webservices)
-  * [Søgninger i REST webservices](#sgninger-i-rest-webservices)
-  * [Datarepræsentation i REST webservices](#datareprsentation-i-rest-webservices)
-  * [REST kommunikationsprotokol](#rest-kommunikationsprotokol)
-  * [Sikkerhedskrav til REST webservices](#sikkerhedskrav-til-rest-webservices)
-* [Referenceliste](#referenceliste)
-* [Appendiks A Eksempel på anvendelse](#appendiks-a-eksempel-p-anvendelse)
-  * [Avendelse af temporalitet](#avendelse-af-temporalitet)
-* [Appendiks B Liste over retningslinjer](#appendiks-b-liste-over-retningslinjer)
-* [Fodnoter](#fodnoter)
-
-Titel Retningslinjer for webservices
-
-Seneste opdateringsdato
-
-10\. oktober 2023
-
-Arkitekturperspektiv
-
-Applikation
-
-Dokument beskrivelse
-
-De fælles retningslinjer for webservices er en vejledning til serviceudbydere, der skal udstille data og funktionalitet via webservices. Vejledningen skal opfattes som en beskrivelse af god praksis og skal hjælpe serviceudbyderen, når denne designer og udstiller webservices rettet imod serviceanvendere.
-
-FDA Status
-
-Optaget
-
-Produktlivscyklus
-
-Færdig
-
-Versionsnummer
-
-1.0.0
