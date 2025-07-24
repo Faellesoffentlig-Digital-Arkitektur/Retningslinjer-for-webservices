@@ -353,7 +353,7 @@ Fx kan et mødelokales størrelse have forskellige værdier over tid, som skifte
 
 Dette kan anskueliggøres med et eksempel, hvor en ressource opdateres på tre på hinanden følgende tidspunkter. For ressourcen foretages først en opdatering for periode 1 \[g0;g1\] til registreringstidspunktet r0. Efterfølgende opdateres ressourcen til at gælde for periode 2 \[g1;g2\] til registreringstidspunktet r1. Og endeligt opdateres ressourcen til at gælde for periode 3 \[g0;g2\] til registreringstidspunktet r2. Figuren nedenfor illustrerer, hvorledes den bitemporale plan for eksemplet ser ud.
 
-![Figur 1.jpg](C:\Users\B339605\Documents\GitHub\Retningslinjer-for-webservices\assets\Figur%201.jpg)
+![Figur 1.jpg](assets\Figur1.jpg)
 
 Figur 1 Illustrativt eksempel på registreringhistorik og gyldighedsperioder med tre registreringer
 
@@ -364,7 +364,7 @@ Bitemporale ressourcer anvendes til at understøtte en lang række særskilte fo
 3. Behov for at kunne fremsøge ressourcens gyldige tilstande over en periode - også kaldet en **Linje**.
 4. Behov for at kunne se registreringsperioden for en gyldighedstidsperiode - også kaldet en **Flade**.
 
-![Figur 2.jpg](C:\Users\B339605\Documents\GitHub\Retningslinjer-for-webservices\assets\Figur%202.jpg)
+![Figur 2.jpg](assets\Figur2.jpg)
 
 Figur 2 Søgemuligheder ved bitemporalitet  
 
