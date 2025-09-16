@@ -40,10 +40,10 @@ Dokumentet er opbygget i seks hovedafsnit. 
 
 Dokumentet henviser til følgende bilag:
 
-* [Bilag 1 ”Dokumentation for REST Webservices”](/node/1164) Bilaget giver uddybende beskrivelse af retningslinje R06.
-* [Bilag 2 ”Fejlstruktur og fejlkoder for REST Webservices”](/node/1165) omhandler ensretning af fejlstrukturer for webservices og ensartet anvendelse af HTTP headers og håndtering af asynkrone kald.
-* [Bilag 3 ”Nonfunktionelle krav til realisering af retningslinjer”](/node/1166) indeholder et kravbilag, som kan anvendes af serviceudbydere til at kravstille webservices, som overholder retningslinjerne.
-* [Bilag 4 ”Specifikation for brug af HTTP til REST”](/node/1167) uddyber mere detaljeret anvendelsen af REST over HTTP. REST giver stor mulighed for fleksibilitet i udarbejdelsen af snitfladen, men bilagets formål er at skabe større ensartethed på almindeligt udstillet funktionalitet.
+* [Bilag 1 ”Dokumentation for REST Webservices”](https://arkitektur.digst.dk/node/1164) Bilaget giver uddybende beskrivelse af retningslinje R06.
+* [Bilag 2 ”Fejlstruktur og fejlkoder for REST Webservices”](https://arkitektur.digst.dk/node/1165) omhandler ensretning af fejlstrukturer for webservices og ensartet anvendelse af HTTP headers og håndtering af asynkrone kald.
+* [Bilag 3 ”Nonfunktionelle krav til realisering af retningslinjer”](https://arkitektur.digst.dk/node/1166) indeholder et kravbilag, som kan anvendes af serviceudbydere til at kravstille webservices, som overholder retningslinjerne.
+* [Bilag 4 ”Specifikation for brug af HTTP til REST”](https://arkitektur.digst.dk/node/1167) uddyber mere detaljeret anvendelsen af REST over HTTP. REST giver stor mulighed for fleksibilitet i udarbejdelsen af snitfladen, men bilagets formål er at skabe større ensartethed på almindeligt udstillet funktionalitet.
 
 ### 
 
@@ -618,11 +618,11 @@ HTTP indeholder en række mekanismer, der bidrager til effektiv brug af båndbre
 | ID           | Kilde                                                                                                                                                                                                        |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | \[FIELDING\] | Roy Thomas Fielding (2000)_Architectural Styles and the Design of Network-based Software Architectures_.                                                                                                     |
-| \[HVIDBOG\]  | Digitaliseringsstyrelsen (2017) _Den digitalt sammenhængende offentlige sektor – Hvidbog om arkitektur for digitalisering_, version 1.0.. Tilgængelig på: [http://arkitektur.digst.dk/node/241](/node/241)   |
+| \[HVIDBOG\]  | Digitaliseringsstyrelsen (2017) _Den digitalt sammenhængende offentlige sektor – Hvidbog om arkitektur for digitalisering_, version 1.0.. Tilgængelig på: [http://arkitektur.digst.dk/node/241](https://github.com/Faellesoffentlig-Digital-Arkitektur/Hvidbog-om-faellesoffentlig-digital-arkitektur/blob/main/Hvidbog%20om%20f%C3%A6llesoffentlig%20digital%20arkitektur.md)   |
 | \[MATURITY\] | Leonard Richardson (2008) _Richardsons maturity model, Tilgængelig på:_ [https://martinfowler.com/articles/richardsonMaturityModel.html](https://martinfowler.com/articles/richardsonMaturityModel.html)     |
-| \[MODEL\]    | Digitaliseringsstyrelsen (2017) _Fællesoffentlige regler for begrebs- og datamodellering_, version 2.1. Tilgængelig på [https://arkitektur.digst.dk/node/81/](/node/81/)                                     |
+| \[MODEL\]    | Digitaliseringsstyrelsen (2017) _Fællesoffentlige regler for begrebs- og datamodellering_, version 2.1. Tilgængelig på [https://arkitektur.digst.dk/node/81/](https://github.com/Faellesoffentlig-Digital-Arkitektur/De-faellesoffentlige-regler-for-begrebs-og-datamodellering)                                     |
 | \[OIOIDWS\]  | Digitaliseringsstyrelsen (2016) _OIO IDWS REST profile_. Tilgængelig på: [https://github.com/digst/OIOIDWS.Net](https://github.com/digst/OIOIDWS.Net)                                                        |
-| \[REGEL7.1\] | Digitaliseringsstyrelsen (2017) _Arkitekturregel 7.1: Design og udstil snitflader efter fælles integrationsmønstre og tekniske standarder._ Tilgængelig på: [http://arkitektur.digst.dk/node/460](/node/460) |
+| \[REGEL7.1\] | Digitaliseringsstyrelsen (2017) _Arkitekturregel 7.1: Design og udstil snitflader efter fælles integrationsmønstre og tekniske standarder._ Tilgængelig på: [http://arkitektur.digst.dk/node/460](Hvidbog%20om%20faellesoffentlig%20digital%20arkitektur.md#71-design-og-udstil-snitflader-efter-faelles-integrationsmoenstre-og-tekniske-standarder) |
 | \[W3C\]      | W3C Working Group (2004) _Definition af webservices og relation til REST._ Tilgængelig på: [https://www.w3.org/TR/2004/NOTE-ws-arch-20040211/](https://www.w3.org/TR/2004/NOTE-ws-arch-20040211/)            |
 
 ## Appendiks A Eksempel på anvendelse
